@@ -13,8 +13,9 @@ const Profile = props => {
 
     return (
         <div>
-            <h1>{aboutMe.name}</h1> //KHOA DANG
-            <p>code: {aboutMe.code} </p> // Python, Javascript, Java, HTML, CSS, SQL, MongoDB
+            <h1>Name: {aboutMe.name}</h1> //KHOA DANG
+            <p>Languages: {aboutMe.code} </p> // Python, Javascript, Java, HTML, CSS, SQL, MongoDB
+            <p>Contact info: {aboutMe.email} </p> // dkhoa.us@gmail.com
         </div>
     )
 }
