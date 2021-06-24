@@ -2,7 +2,7 @@
 <em>I love to make new friends. You can visit my profile links below</em>
 <p>
     <a href="https://github.com/dangkhoa1410" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-black?style=plastic&logo=github" /></a>
-    <a href="nkedin.com/in/ddkhoa/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=plastic&logo=linkedin" /></a>
+    <a href="" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=plastic&logo=linkedin" /></a>
 </p>
 
 ```javascript
@@ -13,8 +13,8 @@ const Profile = props => {
 
     return (
         <div>
-            <h1>Name: {aboutMe.name}</h1> //KHOA DANG
-            <p>Languages: {aboutMe.code} </p> // Python, Javascript, Java, HTML, CSS, SQL, MongoDB
+            <h1>Name: {aboutMe.name}</h1> // KHOA DANG
+            <p>Codes : {aboutMe.code} </p> // Python, Javascript, Java, HTML, CSS, SQL, MongoDB
             <p>Contact info: {aboutMe.email} </p> // dkhoa.us@gmail.com
         </div>
     )
